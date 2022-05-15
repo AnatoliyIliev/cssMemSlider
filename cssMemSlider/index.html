@@ -4,26 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Mem slider</title>
   </head>
   <body>
     <div class="container">
-      <ul>
-        <li>
-          <img class="image" src="../assets/1.jpg" alt="Firefox & Windows" />
-          <p>Firefox снова конфликтует с Windows</p>
+      <div class="slider-img">
+        <figure class="figure">
+          <img
+            class="image"
+            id="slide-1"
+            src="./assets/1.jpg"
+            alt="Firefox & Windows"
+          />
+          <img
+            class="image"
+            id="slide-2"
+            src="./assets/2.jpg"
+            alt="My face 27/7"
+          />
+          <img
+            class="image"
+            id="slide-3"
+            src="./assets/3.jpg"
+            alt="Good morning"
+          />
+          <img
+            class="image"
+            id="slide-4"
+            src="./assets/4.jpg"
+            alt="Need for spirt"
+          />
+        </figure>
+      </div>
+      <!-- <ul class="slider-img">
+        <li class="slider-item">
+          <img class="image" src="./assets/1.jpg" alt="Firefox & Windows" />
+          <p class="text">Firefox снова конфликтует с Windows</p>
         </li>
         <li>
-          <img class="image" src="../assets/2.jpg" alt="My face 27/7" />
+          <img class="image" src="./assets/2.jpg" alt="My face 27/7" />
           <p>Не понимаю почему люди от меня шарахаются - мое лицо 24/7</p>
         </li>
         <li>
-          <img class="image" src="../assets/3.jpg" alt="Good morning" />
+          <img class="image" src="./assets/3.jpg" alt="Good morning" />
           <p>Доброе утро, соседи!</p>
         </li>
         <li>
-          <img class="image" src="../assets/4.jpg" alt="Need for spirt" />
+          <img class="image" src="./assets/4.jpg" alt="Need for spirt" />
           <p>Need for spirt</p>
+        </li>
+      </ul> -->
+      <ul class="slider-nav">
+        <li class="slider-li">
+          <a class="slider-link" href="#slide-1"
+            ><span class="circle"></span
+          ></a>
+        </li>
+        <li class="slider-li">
+          <a class="slider-link" href="#slide-2"
+            ><span class="circle"></span
+          ></a>
+        </li>
+        <li class="slider-li">
+          <a class="slider-link" href="#slide-3"
+            ><span class="circle"></span
+          ></a>
+        </li>
+        <li class="slider-li">
+          <a class="slider-link" href="#slide-4"
+            ><span class="circle"></span
+          ></a>
         </li>
       </ul>
     </div>
