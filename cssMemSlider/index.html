@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Mem slider</title>
+  </head>
+  <body>
+    <div class="container">      
+      <input type="radio" id="slide-1" name="slide" checked/>
+      <input type="radio" id="slide-2" name="slide"/>
+      <input type="radio" id="slide-3" name="slide"/>
+      <input type="radio" id="slide-4" name="slide"/>
+
+      <div class="slider-img">
+        <figure class="figure">
+          <img
+            class="image image-1"
+            src="./assets/1.jpg"
+            alt="Firefox & Windows"
+          />
+          <img
+            class="image image-2"
+            src="./assets/2.jpg"
+            alt="My face 27/7"
+          />
+          <img
+            class="image image-3"
+            src="./assets/3.jpg"
+            alt="Good morning"
+          />
+          <img
+            class="image image-4"
+            src="./assets/4.jpg"
+            alt="Need for spirt"
+          />
+        </figure>
+      </div>
+      <div class="slider-text">
+        <p class="text text-1" href="#slide-1">Firefox снова конфликтует с Windows</p>
+        <p class="text text-2" href="#slide-2">
+          Не понимаю почему люди от меня шарахаются - мое лицо 24/7
+        </p>
+        <p class="text text-3" href="#slide-3">Доброе утро, соседи!</p>
+        <p class="text text-4" href="#slide-4">Need for spirt</p>
+      </div>
+      <div class="slider-nav">
+        <label class="slider-link slide-1" for="slide-1"><span class="control"></label>
+        <label class="slider-link slide-2" for="slide-2"><span class="control"></label>
+        <label class="slider-link slide-3" for="slide-3"><span class="control"></label>
+        <label class="slider-link slide-4" for="slide-4"><span class="control"></label>
+      </div>     
+    </div>
+  </body>
+</html>
